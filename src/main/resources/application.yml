@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: event-analytics-api
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/analytics}
+    username: ${DB_USER:analytics}
+    password: ${DB_PASSWORD:analytics}
+  jpa:
+    hibernate:
+      ddl-auto: validate   # schema is owned by Flyway migrations
+    open-in-view: false
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+  flyway:
+    enabled: true
+
+analytics:
+  rollup:
+    cron: "0 5 * * * *"   # every hour at minute 5
+    lookback-days: 1      # re-aggregate today + yesterday (late events)

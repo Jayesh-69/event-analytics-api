@@ -1,0 +1,16 @@
+/Users/jm/Documents/git/event-analytics-api/src/main/java/com/jayesh/analytics/EventAnalyticsApplication.java
+/Users/jm/Documents/git/event-analytics-api/src/main/java/com/jayesh/analytics/common/GlobalExceptionHandler.java
+/Users/jm/Documents/git/event-analytics-api/src/main/java/com/jayesh/analytics/event/Event.java
+/Users/jm/Documents/git/event-analytics-api/src/main/java/com/jayesh/analytics/event/EventController.java
+/Users/jm/Documents/git/event-analytics-api/src/main/java/com/jayesh/analytics/event/EventRepository.java
+/Users/jm/Documents/git/event-analytics-api/src/main/java/com/jayesh/analytics/event/EventRequest.java
+/Users/jm/Documents/git/event-analytics-api/src/main/java/com/jayesh/analytics/event/EventResponse.java
+/Users/jm/Documents/git/event-analytics-api/src/main/java/com/jayesh/analytics/event/EventService.java
+/Users/jm/Documents/git/event-analytics-api/src/main/java/com/jayesh/analytics/event/EventType.java
+/Users/jm/Documents/git/event-analytics-api/src/main/java/com/jayesh/analytics/stats/DailyStat.java
+/Users/jm/Documents/git/event-analytics-api/src/main/java/com/jayesh/analytics/stats/DailyStatRepository.java
+/Users/jm/Documents/git/event-analytics-api/src/main/java/com/jayesh/analytics/stats/PageViewsResponse.java
+/Users/jm/Documents/git/event-analytics-api/src/main/java/com/jayesh/analytics/stats/RollupJob.java
+/Users/jm/Documents/git/event-analytics-api/src/main/java/com/jayesh/analytics/stats/StatsController.java
+/Users/jm/Documents/git/event-analytics-api/src/main/java/com/jayesh/analytics/stats/StatsService.java
+/Users/jm/Documents/git/event-analytics-api/src/main/java/com/jayesh/analytics/stats/TopPageResponse.java
